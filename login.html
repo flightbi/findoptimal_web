@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel Search Login | FindOptimal</title>
+  <meta name="description" content="Log in to the FindOptimal hotel search demo.">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body class="login-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="./index.html"><img class="brand-logo" src="./assets/images/logo_en.png" alt="FindOptimal"></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/index.html">Guides</a></li>
+        <li><a href="./demos.html">Demos</a></li>
+        <li><a href="./posts/index.html">Updates</a></li>
+        <li><a href="./pages/why-us/index.html">Why Us</a></li>
+        <li><a href="./pages/flight-bi/index.html">Flight BI</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="login-shell">
+      <div class="login-card" aria-labelledby="login-title">
+        <img class="login-logo" src="./assets/images/logo-old.gif" alt="FindOptimal">
+        <p class="eyebrow">Hotel search</p>
+        <h1 id="login-title">Sign in to search hotels</h1>
+        <form class="login-form" data-login-form>
+          <label for="username">User name</label>
+          <input id="username" name="username" type="text" autocomplete="username" required>
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+          <button class="button primary login-button" type="submit">Login</button>
+          <p class="login-error" data-login-error role="alert" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><p>&copy; 2026 FindOptimal. All rights reserved.</p><p><a href="mailto:service@findoptimal.com">service@findoptimal.com</a></p></div></footer>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
